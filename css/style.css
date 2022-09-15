@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Noto Sans', sans-serif;
+}
+a, a:hover{
+	font-family: 'Noto Sans', sans-serif;
+	text-decoration: none;
+	transition: all ease 0.3s;
+}
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+
+}
+.col-lg-12{
+	width: 100%;
+	float: left;
+}
+.col-lg-4{
+	width: 33.33%;
+	float: left;	
+}
+.col-lg-3{
+	width: 25%;
+	float: left;
+}
+.col-lg-9{
+	width: 75%;
+	float: left;
+}
+.col-lg-6{
+	width: 50%;
+	float: left;
+}
+
+/* header code start */
+.header{
+	width: 100%;
+	float: left;
+	padding: 10px 0px;
+	border-bottom: 1px solid #eee;
+	position: fixed;
+	top: 0px;
+	background: #fff;
+}
+.header .logo{
+	display: block;
+	width: 100%;
+}
+.header .navbar{
+	width: 100%;
+	float: left;
+	text-align: right;
+}
+.header .navbar li{
+	list-style: none;
+	display: inline-block;
+	margin: 10px 0px 0px 0px;
+}
+.header .navbar li a{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 14px;
+	text-transform: capitalize;	
+	font-weight: 600;
+	color: #0B2253;
+	margin: 0px 0px 0px 25px;
+}
+.header .navbar li a:hover, .header .navbar li a:focus{
+color: #008AFF;
+}
+/* online-business css code start */
+.online-business{
+	width: 100%;
+	float: left;
+	padding: 100px 0px;
+	text-align: center;
+
+}
+.online-business h1{
+	font-size: 70px;
+	line-height: 80px;
+	color: #0B2253s;
+	margin: 0px 0px 10px;
+}
+.online-business h1 span{
+	color: #36A3FF;
+}
+.online-business p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #0B2253;
+	margin: 0px 0px 10px;
+}
+.online-business .banner-img{
+width: 60%;
+margin: 20px 0px 0px;
+}
+
+/* successfull css code start*/
+.successfull{
+	width: 100%;	
+	float: left;
+	padding: 30px 0px 80px;
+}
+.successfull .left-text{
+	width: 100%;
+	float: left;
+	text-align: right;
+}
+.successfull .left-text h3{
+	font-size: 52px;
+	line-height: 62px;
+	color: #F05162;
+	margin: 0px 0px 5px 0px;
+}
+.successfull .left-text p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #0B2253;
+	margin: 0px 15px 10px 0px;
+}
+.successfull .right-text{
+	width: 100%;
+	float: left;
+} 
+.successfull .right-text h3{
+	font-size: 52px;
+	line-height: 62px;
+	color: #0B2253;
+	margin: 0px 0px 5px 15px;
+}
+.feature{
+	width: 100%;
+	float: left;
+	padding: 0px 0px 80px;
+}
+.inner-feature{
+	width: 75%;
+	float: left;
+	padding: 40px 30px;
+	margin: 0px 20px;
+	transition: all ease 0.3s;
+	border-radius: 5px;
+
+}
+.inner-feature:hover{
+	margin-top: -15px;
+	box-shadow: 0px 2px 28px #d2d2d2;
+	cursor: pointer;	
+}
+.inner-feature img{
+	width: 100%;
+	height: 180px;
+}
+.inner-feature h4{
+	font-size: 18px;
+	line-height: 28px;
+	color: #0B2253;
+	margin: 10px 0px 10px;
+	text-align: center;
+	transition: all ease 0.3s;
+}
+.inner-feature:hover h4{
+	color: #008AFF;
+}
+.inner-feature p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #0B2253;
+	text-align: center;
+}
+.cl1{
+	background: #FDEBED;
+}
+.cl2{
+	background:#EBF9F4;
+}
+.cl3{
+	background: #FFF7E8;
+}
+/*-- footer section start --*/
+.footer{
+	width: 100%;
+	float: left;
+	padding: 30px 0px;
+	background: #008AFF;
+}
+.footer p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #fff;
+	text-align: center;
+}
+.footer p a{
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+.footer p a:hover, .footer p a:focus{
+	color: #000;
+}
+
